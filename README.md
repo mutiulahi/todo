@@ -1,4 +1,4 @@
-# TODO LIS
+# TODO LIST
 
 A laravel application , Built using PHP/LARAVEL, HTML, CSS and JAVASCRIPT.
 
