@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 150px;
+    background-color:#cccccc;
+}
+.control-me
+{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 70px;
+    /* border: 1px solid #cccccc; */
+    padding: 50px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #dcdcdc;
+}
+.control-me-form
+{
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 50px;
+    /* border: 1px solid #cccccc; */
+    padding: 50px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #dcdcdc;
+}
+.btn1 
+{
+    float: right;
+    background-color: #0813b5;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #0813b5;
+}
+.login {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.register {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.form-me input {
+    width: 70%;
+    margin-left: 10%;
+    padding: 6px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+    outline: none;
+}
+.todo-container{
+    border: 0px solid #cccccc;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 1px 1px 20px #ededed;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.todo input {
+    width: 80%;
+    margin-left: 8%;
+    padding: 6px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 20px #ededed;
+
+}
+hr {
+    width: 50%;
+    margin-left: 20%;
+    /* padding: 6px 20px; */
+    border: 1px solid #e6e4e4;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 20px #ededed;
+}
+.todos{
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.todos .todos-container
+{
+    width: 80%;
+    margin-left: 8%;
+    margin-bottom: 10px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 20px #ededed; 
+    display:flex;
+    justify-content: space-around;
+}
+
+.todos .check{
+   width: 5%;
+}
+.todos .list{
+   width: 70%;
+}
+.todos .delete{
+   width: 5%;
+}
+
+
+@media screen and (max-width: 52.375em) {
+    .control-me {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 70px;
+    }
+
+    nav {
+        height: 150px;
+    }
+   
+    .todo-container{
+        border: 0px solid #cccccc;
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 1px 1px 20px #ededed;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .todos .todos-container {
+    padding-right: 50px;
+
+    }
+}
